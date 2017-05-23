@@ -1,0 +1,205 @@
+body, p {
+	min-width: 400px;
+	margin: 0;
+	padding: 0;
+	background-color: #f8f8f8;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#pinLink {
+	width:80%;
+	height:40px;
+	border: 0;
+	margin: 20px auto;
+	padding: 15px 15px 10px;
+    background: #4479BA;
+    cursor: pointer;
+	display:block;
+    font-weight: 700;
+    font-size:25px;
+    color: #fff;
+    text-align: center;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+#pinLink:hover, #pinLink:focus {
+    background: #2f64a5;
+}
+
+#pinnedPages {
+	margin: 40px 0 0 0;
+	max-height: 450px;
+	overflow: scroll;
+}
+
+#pinnedPages a {
+	width:100%-10px;
+	background-color: #ebebeb;
+	border: 0;
+	border-left:5px solid #505050;
+	margin: 0 0 5px;
+	padding: 5px;
+	display: block;
+	font-weight: 400;
+	color:#000;
+	text-decoration: none;
+	outline: none;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+#pinnedPages a:hover {
+	background-color: #cccccc;
+}
+
+#deletedPages {
+	margin:-20px 0 20px;
+}
+
+#deletedPages a {
+	width:80%;
+	background-color: #f0e350;
+	border: 0;
+	border-left:5px solid #a69d36;
+	margin: 0 auto 5px;
+	padding: 5px;
+	display: block;
+	font-weight: 400;
+	color:#000;
+	text-decoration: none;
+	outline: none;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+#deletedPages a:hover {
+	background-color: #cbc042;
+}
+
+#lastChanceTitle {
+	width:80%;
+	background-color: #f0e350;
+	border: 0;
+	border-left:5px solid #a69d36;
+	border-top:5px solid #a69d36;
+	margin: 0 auto 5px;
+	padding: 5px;
+	display: none;
+	font-weight: 700;
+	color:#000;
+
+}
+
+p {
+	position: relative;
+}
+
+.deleteBtn {
+	height: 100%;
+	width: 0;
+	border: 0;
+	margin: 0;
+	padding:0;
+    background: #d23030;
+    cursor: pointer;
+	display:block;
+	font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #fff;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    position: absolute;
+    top:0;
+    right:25px;
+}
+
+.deleteBtn:hover {
+	background: #a92424;
+}
+
+#title {
+	font-family: 'Simonetta', cursive;
+	font-weight: 900;
+}
+
+#footer{
+	width: 100%;
+	height: 25px;
+	background: #505050;
+	color: #fff;
+	margin-top: 20px;
+	position: relative;
+}
+
+#showDelete {
+	height:100%;
+	border: 0;
+	margin: 0;
+	padding:0 10px;
+    background: #ebebeb;
+    cursor: pointer;
+    outline: none;
+	display:block;
+	font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 0.7em;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+	position: absolute;
+	right: 25px;
+	top:0px;
+}
+
+#showDelete:hover {
+    background: #a7a7a7;
+}
+
+#deleteAfter {
+	height:100%;
+	border: 0;
+	margin: 0;
+	padding:0 10px;
+    background: #ebebeb;
+	font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 0.7em;
+	position: absolute;
+	left: 25px;
+	top:0px;
+}
+
+select {
+	height:100%;
+	width:50px;
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+	padding: 0 5px;
+	font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 1em;
+    outline: none;
+    background: #ebebeb;
+	line-height: 1;
+	-webkit-appearance:listbox;
+	-webkit-transition-duration: 0.2s;
+	text-align: center;
+}
+
+select:hover {
+    background: #a7a7a7;
+}
+
+#clear {
+	display: none;
+}
